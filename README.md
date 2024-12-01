@@ -12,3 +12,7 @@ This example demonstrates the implementation of Picture-in-Picture (PIP) mode in
 
 https://github.com/user-attachments/assets/8109ef44-95cf-4baf-a856-a9765f07e416
 
+### Resources
+
+- [Adopting Picture in Picture for video calls](https://developer.apple.com/documentation/avkit/adopting-picture-in-picture-for-video-calls)
+- [Accessing the camera while multitasking](https://developer.apple.com/documentation/avkit/accessing-the-camera-while-multitasking-on-ipad)
