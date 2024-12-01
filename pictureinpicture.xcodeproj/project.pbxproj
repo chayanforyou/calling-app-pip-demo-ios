@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		D95B7D3D2CF5A0C100B023BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D3C2CF5A0C100B023BD /* AppDelegate.swift */; };
-		D95B7D3F2CF5A0C100B023BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D3E2CF5A0C100B023BD /* SceneDelegate.swift */; };
 		D95B7D412CF5A0C100B023BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D402CF5A0C100B023BD /* ViewController.swift */; };
 		D95B7D442CF5A0C100B023BD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D95B7D432CF5A0C100B023BD /* Base */; };
 		D95B7D462CF5A0C300B023BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95B7D452CF5A0C300B023BD /* Assets.xcassets */; };
 		D95B7D492CF5A0C300B023BD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D95B7D482CF5A0C300B023BD /* Base */; };
+		D95B7D522CF5A45600B023BD /* CallScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95B7D512CF5A45600B023BD /* CallScreen.storyboard */; };
+		D95B7D542CF5A47F00B023BD /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D532CF5A47F00B023BD /* CallViewController.swift */; };
+		D95B7D572CF5A64000B023BD /* avatar_caller.png in Resources */ = {isa = PBXBuildFile; fileRef = D95B7D562CF5A64000B023BD /* avatar_caller.png */; };
+		D95B7D592CF5A64600B023BD /* avatar_receiver.png in Resources */ = {isa = PBXBuildFile; fileRef = D95B7D582CF5A64600B023BD /* avatar_receiver.png */; };
+		D95B7D5B2CF5C76100B023BD /* CallInvitationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D5A2CF5C76100B023BD /* CallInvitationService.swift */; };
+		D95B7D5D2CF5C7CF00B023BD /* CallDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D5C2CF5C7CF00B023BD /* CallDefines.swift */; };
+		D95B7D602CF5D29800B023BD /* PictureInPictureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D5F2CF5D29800B023BD /* PictureInPictureManager.swift */; };
+		D95B7D622CF5DAAD00B023BD /* VideoPipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D612CF5DAAD00B023BD /* VideoPipView.swift */; };
+		D95B7D642CF5EB2400B023BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B7D632CF5EB2400B023BD /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D95B7D392CF5A0C100B023BD /* pictureinpicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pictureinpicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95B7D3C2CF5A0C100B023BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D95B7D3E2CF5A0C100B023BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D95B7D402CF5A0C100B023BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D95B7D432CF5A0C100B023BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D95B7D452CF5A0C300B023BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D95B7D482CF5A0C300B023BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D95B7D4A2CF5A0C300B023BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95B7D512CF5A45600B023BD /* CallScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CallScreen.storyboard; sourceTree = "<group>"; };
+		D95B7D532CF5A47F00B023BD /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		D95B7D562CF5A64000B023BD /* avatar_caller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_caller.png; sourceTree = "<group>"; };
+		D95B7D582CF5A64600B023BD /* avatar_receiver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_receiver.png; sourceTree = "<group>"; };
+		D95B7D5A2CF5C76100B023BD /* CallInvitationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallInvitationService.swift; sourceTree = "<group>"; };
+		D95B7D5C2CF5C7CF00B023BD /* CallDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDefines.swift; sourceTree = "<group>"; };
+		D95B7D5F2CF5D29800B023BD /* PictureInPictureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInPictureManager.swift; sourceTree = "<group>"; };
+		D95B7D612CF5DAAD00B023BD /* VideoPipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPipView.swift; sourceTree = "<group>"; };
+		D95B7D632CF5EB2400B023BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,47 @@
 		D95B7D3B2CF5A0C100B023BD /* pictureinpicture */ = {
 			isa = PBXGroup;
 			children = (
+				D95B7D552CF5A5A200B023BD /* Resources */,
+				D95B7D5E2CF5D27900B023BD /* Utils */,
+				D95B7D502CF5A43300B023BD /* View */,
 				D95B7D3C2CF5A0C100B023BD /* AppDelegate.swift */,
-				D95B7D3E2CF5A0C100B023BD /* SceneDelegate.swift */,
+				D95B7D632CF5EB2400B023BD /* SceneDelegate.swift */,
 				D95B7D402CF5A0C100B023BD /* ViewController.swift */,
+				D95B7D5C2CF5C7CF00B023BD /* CallDefines.swift */,
+				D95B7D5A2CF5C76100B023BD /* CallInvitationService.swift */,
 				D95B7D422CF5A0C100B023BD /* Main.storyboard */,
 				D95B7D452CF5A0C300B023BD /* Assets.xcassets */,
 				D95B7D472CF5A0C300B023BD /* LaunchScreen.storyboard */,
 				D95B7D4A2CF5A0C300B023BD /* Info.plist */,
 			);
 			path = pictureinpicture;
+			sourceTree = "<group>";
+		};
+		D95B7D502CF5A43300B023BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D95B7D512CF5A45600B023BD /* CallScreen.storyboard */,
+				D95B7D532CF5A47F00B023BD /* CallViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D95B7D552CF5A5A200B023BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D95B7D582CF5A64600B023BD /* avatar_receiver.png */,
+				D95B7D562CF5A64000B023BD /* avatar_caller.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D95B7D5E2CF5D27900B023BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D95B7D5F2CF5D29800B023BD /* PictureInPictureManager.swift */,
+				D95B7D612CF5DAAD00B023BD /* VideoPipView.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +173,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95B7D522CF5A45600B023BD /* CallScreen.storyboard in Resources */,
 				D95B7D462CF5A0C300B023BD /* Assets.xcassets in Resources */,
 				D95B7D492CF5A0C300B023BD /* Base in Resources */,
+				D95B7D572CF5A64000B023BD /* avatar_caller.png in Resources */,
 				D95B7D442CF5A0C100B023BD /* Base in Resources */,
+				D95B7D592CF5A64600B023BD /* avatar_receiver.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95B7D622CF5DAAD00B023BD /* VideoPipView.swift in Sources */,
 				D95B7D412CF5A0C100B023BD /* ViewController.swift in Sources */,
 				D95B7D3D2CF5A0C100B023BD /* AppDelegate.swift in Sources */,
-				D95B7D3F2CF5A0C100B023BD /* SceneDelegate.swift in Sources */,
+				D95B7D602CF5D29800B023BD /* PictureInPictureManager.swift in Sources */,
+				D95B7D5D2CF5C7CF00B023BD /* CallDefines.swift in Sources */,
+				D95B7D542CF5A47F00B023BD /* CallViewController.swift in Sources */,
+				D95B7D5B2CF5C76100B023BD /* CallInvitationService.swift in Sources */,
+				D95B7D642CF5EB2400B023BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -292,13 +348,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83FXXCH75P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pictureinpicture/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "PIP Demo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,13 +378,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83FXXCH75P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pictureinpicture/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "PIP Demo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
